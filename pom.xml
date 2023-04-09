@@ -20,6 +20,7 @@
 
     <modules>
         <module>msvc-users</module>
+        <module>msvc-sections</module>
     </modules>
 
     <properties>

@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="first commit">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="fin del crud de msvc-users">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/controllers/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/services/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/theinsideshine/springcloud/msvc/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/theinsideshine/springcloud/msvc/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +47,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.MsvcUsersApplication">
+    <configuration name="MsvcSectionsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.theinsideshine.springcloud.msvc.sections.MsvcSectionsApplication" />
+      <module name="msvc-sections" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.theinsideshine.springcloud.msvc.sections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MsvcUsersApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.theinsideshine.springcloud.msvc.users.MsvcUsersApplication" />
       <module name="msvc-users" />
@@ -71,6 +77,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.MsvcUsersApplication" />
+        <item itemvalue="Application.MsvcSectionsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -83,7 +90,19 @@
       <option name="presentableId" value="Default" />
       <updated>1680964610376</updated>
     </task>
+    <task id="LOCAL-00001" summary="fin del crud de msvc-users">
+      <created>1681076402561</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1681076402561</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fin del crud de msvc-users" />
+    <option name="LAST_COMMIT_MESSAGE" value="fin del crud de msvc-users" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

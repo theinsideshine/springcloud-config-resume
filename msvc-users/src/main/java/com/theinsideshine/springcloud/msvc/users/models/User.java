@@ -20,6 +20,14 @@ public class User {
     @Column(unique = true)
     private String email;
 
+
+    @NotBlank
+    private String city;
+
+    @NotBlank
+    private String country;
+
+
     @NotBlank
     private String location;
 
@@ -30,6 +38,12 @@ public class User {
     @NotBlank
     private String nationality;
 
+    @NotBlank// no vacio y no en blanco
+    private String graduation;
+
+    @Column(name="technique_graduation")
+    @NotBlank// no vacio y no en blanco
+    private String techniqueGraduation;
     @NotBlank// no vacio y no en blanco
     private String study;
 
@@ -87,6 +101,22 @@ public class User {
         this.email = email;
     }
 
+    public String getCity() {
+        return city;
+    }
+
+    public void setCity(String city) {
+        this.city = city;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public void setCountry(String country) {
+        this.country = country;
+    }
+
     public String getLocation() {
         return location;
     }
@@ -109,6 +139,22 @@ public class User {
 
     public void setNationality(String nationality) {
         this.nationality = nationality;
+    }
+
+    public String getGraduation() {
+        return graduation;
+    }
+
+    public void setGraduation(String graduation) {
+        this.graduation = graduation;
+    }
+
+    public String getTechniqueGraduation() {
+        return techniqueGraduation;
+    }
+
+    public void setTechniqueGraduation(String techniqueGraduation) {
+        this.techniqueGraduation = techniqueGraduation;
     }
 
     public String getStudy() {

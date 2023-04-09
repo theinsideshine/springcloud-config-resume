@@ -1,7 +1,7 @@
 package com.theinsideshine.springcloud.msvc.users.services;
 
 import com.theinsideshine.springcloud.msvc.users.models.User;
-import org.springframework.transaction.annotation.Transactional;
+
 
 import java.util.List;
 import java.util.Optional;
@@ -13,6 +13,10 @@ public interface UserService {
     User save(User user);
 
     void deleteById(Long id);
+
+    Optional<User> findByEmail(String email);
+    boolean existByEmail(String email);
+
 
 
 }

@@ -18,6 +18,7 @@ import java.util.logging.Logger;
 
 @CrossOrigin(origins =  "http://localhost:3000")
 @RestController
+@RequestMapping("/section/hero")
 public class HeroController {
 
     private final static Logger LOGGER = Logger.getLogger("HeroController");
@@ -39,7 +40,7 @@ public class HeroController {
         return ResponseEntity.notFound().build();
     }
 
-    @GetMapping("/hero")
+    @GetMapping("/data")
     public ResponseEntity<?> detailHero() {
         Optional<Hero> o = heroService.findByIdWithUser(1L);
         if (o.isPresent()) {

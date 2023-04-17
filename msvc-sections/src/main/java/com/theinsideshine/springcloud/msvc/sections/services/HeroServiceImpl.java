@@ -43,7 +43,7 @@ public class HeroServiceImpl implements HeroService {
                 List<Long> ids = hero.getHeroUsers().stream().map(cu -> cu.getUserId())
                         .collect(Collectors.toList());
 
-                List<User> users = client.getStudentsPerHero(ids);
+                List<User> users = client.getUsersPerHero(ids);
                 hero.setUsers(users);
             }
             return Optional.of(hero);

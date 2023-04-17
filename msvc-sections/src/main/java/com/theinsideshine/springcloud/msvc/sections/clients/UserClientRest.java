@@ -17,5 +17,8 @@ public interface UserClientRest {
     User create(@RequestBody User user);
 
     @GetMapping("/users-by-hero")
-    List<User> getStudentsPerHero(@RequestParam Iterable<Long> ids);
+    List<User> getUsersPerHero(@RequestParam Iterable<Long> ids);
+
+    @GetMapping("/users-by-about")
+    List<User> getUserPerAbout(@RequestParam Iterable<Long> ids);
 }

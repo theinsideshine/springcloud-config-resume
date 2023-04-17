@@ -11,7 +11,7 @@ public interface PortfolioService {
     Optional<Portfolio> findById(Long id);
 
 
-    Portfolio save(Portfolio p);
+    Portfolio save(Portfolio portfolio);
     void delete(Long id);
 
 

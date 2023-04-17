@@ -44,7 +44,7 @@ public class AboutServiceimpl implements AboutService{
                 List<Long> ids = about.getAboutUsers().stream().map(cu -> cu.getUserId())
                         .collect(Collectors.toList());
 
-                List<User> users = client.getUsersPerHero(ids);
+                List<User> users = client.getUsersPerIds(ids);
                 about.setUsers(users);
             }
             return Optional.of(about);

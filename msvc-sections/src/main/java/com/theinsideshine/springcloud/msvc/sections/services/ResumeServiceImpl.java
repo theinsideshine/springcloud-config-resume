@@ -44,7 +44,7 @@ public class ResumeServiceImpl implements ResumeService{
                 List<Long> ids = resume.getResumeUsers().stream().map(cu -> cu.getUserId())
                         .collect(Collectors.toList());
 
-                List<User> users = client.getUsersPerHero(ids);
+                List<User> users = client.getUsersPerIds(ids);
                 resume.setUsers(users);
             }
             return Optional.of(resume);

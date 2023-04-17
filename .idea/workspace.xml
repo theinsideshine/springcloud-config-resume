@@ -5,8 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="fin del crud de msvc-users">
+      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/clients/UserClientRest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/controllers/HeroController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/models/entity/HeroUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-sections/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-sections/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/MsvcSectionsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/MsvcSectionsApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/controllers/SectionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/models/Section.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/models/entity/Hero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/repositories/SectionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/repositories/HeroRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/services/SectionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/services/HeroService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/services/SectionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/services/HeroServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/services/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/services/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/services/UserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -111,6 +125,11 @@
           <url>file://$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/controllers/UserController.java</url>
           <line>34</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/controllers/HeroController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

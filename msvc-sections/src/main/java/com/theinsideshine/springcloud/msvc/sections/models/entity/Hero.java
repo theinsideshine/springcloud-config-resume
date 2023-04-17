@@ -1,16 +1,36 @@
-package com.theinsideshine.springcloud.msvc.sections.models;
+package com.theinsideshine.springcloud.msvc.sections.models.entity;
+
+import com.theinsideshine.springcloud.msvc.sections.models.User;
 
 import javax.persistence.*;
 import javax.validation.constraints.NotBlank;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
-@Table(name="sections")
-public class Section {
+@Table(name="heros")
+public class Hero {
 
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
+
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    @JoinColumn(name = "hero_id")
+    private List<HeroUser> heroUsers;
+
+    @Transient
+    private List<User> users;
+
+    public Hero() {
+        heroUsers = new ArrayList<>();
+        users = new ArrayList<>();
+    }
+
+
+
 
     @NotBlank
     private String key1;
@@ -238,5 +258,29 @@ public class Section {
 
     public void setValue10(String value10) {
         this.value10 = value10;
+    }
+
+
+    public void addHeroUser(HeroUser heroUser) {
+        heroUsers.add(heroUser);
+    }
+
+    public void removeHeroUser(HeroUser heroUser) {
+        heroUsers.remove(heroUser); // aca use la comparacion sobreescribir en cursoUsers el equals
+    }
+    public List<HeroUser> getHeroUsers() {
+        return heroUsers;
+    }
+
+    public void setHeroUsers(List<HeroUser> heroUsers) {
+        this.heroUsers = heroUsers;
+    }
+
+    public List<User> getUsers() {
+        return users;
+    }
+
+    public void setUsers(List<User> users) {
+        this.users = users;
     }
 }

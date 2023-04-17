@@ -21,4 +21,8 @@ public interface UserClientRest {
 
     @GetMapping("/users-by-about")
     List<User> getUserPerAbout(@RequestParam Iterable<Long> ids);
+
+    @GetMapping("/users-by-resume")
+    List<User> getUserPerResume(@RequestParam Iterable<Long> ids);
+
 }

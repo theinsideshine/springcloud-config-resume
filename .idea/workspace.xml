@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="Section about ready">
-      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/controllers/ResumeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/models/entity/Resume.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/models/entity/ResumeUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/repositories/ResumeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/services/ResumeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/services/ResumeServiceImpl.java" afterDir="false" />
+    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="Section contact ready , repair user-by-ids for clientFieng">
+      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/controllers/EmailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/models/EmailMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-sections/src/main/resources/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/clients/UserClientRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/clients/UserClientRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-sections/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-sections/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +53,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.theinsideshine.springcloud.msvc.sections.models" />
       <recent name="com.theinsideshine.springcloud.msvc.sections.controllers" />
       <recent name="com.theinsideshine.springcloud.msvc.sections.services" />
       <recent name="com.theinsideshine.springcloud.msvc.sections.repositories" />
@@ -125,7 +124,35 @@
       <option name="project" value="LOCAL" />
       <updated>1681740352003</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Section resume ready">
+      <created>1681743367037</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1681743367037</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Section portfolio ready">
+      <created>1681741050779</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1681741050779</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Section testimonial ready">
+      <created>1681743051163</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1681743051163</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Section contact ready , repair user-by-ids for clientFieng">
+      <created>1681741656486</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1681741656486</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -143,7 +170,11 @@
     <MESSAGE value="fin del crud de msvc-users" />
     <MESSAGE value="Section hero ready" />
     <MESSAGE value="Section about ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Section about ready" />
+    <MESSAGE value="Section resume ready" />
+    <MESSAGE value="Section portfolio ready" />
+    <MESSAGE value="Section testimonial ready" />
+    <MESSAGE value="Section contact ready , repair user-by-ids for clientFieng" />
+    <option name="LAST_COMMIT_MESSAGE" value="Section contact ready , repair user-by-ids for clientFieng" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -157,6 +188,16 @@
           <url>file://$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/controllers/HeroController.java</url>
           <line>46</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/services/ContactServiceImpl.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/controllers/EmailController.java</url>
+          <line>48</line>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -53,7 +53,7 @@ public class ResumeController {
 
             json.addProperty(o.get().getKey4(),o.get().getValue4());
             json.addProperty(o.get().getKey5(),o.get().getUsers().get(0).getStudy());
-            json.addProperty(o.get().getKey6(),o.get().getUsers().get(0).getGraduation());
+            json.addProperty(o.get().getKey6(),o.get().getValue6());
             json.addProperty(o.get().getKey7(),o.get().getValue7());
 
             json.addProperty(o.get().getKey8(),o.get().getValue8());

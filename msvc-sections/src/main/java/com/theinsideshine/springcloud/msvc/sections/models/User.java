@@ -1,9 +1,5 @@
 package com.theinsideshine.springcloud.msvc.sections.models;
 
-import javax.persistence.Column;
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-import javax.validation.constraints.NotEmpty;
 
 public class User {
 
@@ -27,6 +23,10 @@ public class User {
     private String githubLink;
     private String youtube;
     private String youtubeLink;
+
+    private String linkedinLink;
+
+    private String facebookLink;
 
     public Long getId() {
         return id;
@@ -186,5 +186,21 @@ public class User {
 
     public void setYoutubeLink(String youtubeLink) {
         this.youtubeLink = youtubeLink;
+    }
+
+    public String getLinkedinLink() {
+        return linkedinLink;
+    }
+
+    public void setLinkedinLink(String linkedinLink) {
+        this.linkedinLink = linkedinLink;
+    }
+
+    public String getFacebookLink() {
+        return facebookLink;
+    }
+
+    public void setFacebookLink(String facebookLink) {
+        this.facebookLink = facebookLink;
     }
 }

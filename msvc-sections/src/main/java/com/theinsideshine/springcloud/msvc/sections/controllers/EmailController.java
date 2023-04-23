@@ -25,12 +25,12 @@ import java.util.logging.Logger;
 
 @CrossOrigin(origins =  "http://localhost:3000")
 @RestController
-@RequestMapping("sendEmail")
+@RequestMapping
 public class EmailController {
 
     private final static Logger LOGGER = Logger.getLogger("SendemailController");
 
-    @PutMapping
+    @PutMapping("sendEmail")
     public ResponseEntity<String> getSendEmail(@RequestBody EmailMessage emailMessage) throws IOException {
         JsonObject json = new JsonObject();
 

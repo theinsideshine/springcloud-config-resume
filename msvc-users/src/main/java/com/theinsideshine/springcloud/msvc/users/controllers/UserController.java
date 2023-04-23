@@ -76,6 +76,9 @@ public class UserController {
             userDb.setGithubLink(user.getGithubLink());
             userDb.setYoutube(user.getYoutube());
             userDb.setYoutube(user.getYoutubeLink());
+            userDb.setLinkedinLink(user.getLinkedinLink());
+            userDb.setFacebookLink(user.getFacebookLink());
+
 
 
             return ResponseEntity.status(HttpStatus.CREATED).body(userService.save(userDb));

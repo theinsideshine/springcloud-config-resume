@@ -92,6 +92,36 @@ public class Hero {
     @NotBlank
     private String value10;
 
+    @NotBlank
+    private String key11;
+
+    @NotBlank
+    private String value11;
+
+    @NotBlank
+    private String key12;
+
+    @NotBlank
+    private String value12;
+
+    @NotBlank
+    private String key13;
+
+    @NotBlank
+    private String value13;
+
+    @NotBlank
+    private String key14;
+
+    @NotBlank
+    private String value14;
+
+    @NotBlank
+    private String key15;
+
+    @NotBlank
+    private String value15;
+
     public Long getId() {
         return id;
     }
@@ -260,6 +290,85 @@ public class Hero {
         this.value10 = value10;
     }
 
+    public String getKey11() {
+        return key11;
+    }
+
+    public void setKey11(String key11) {
+        this.key11 = key11;
+    }
+
+    public String getValue11() {
+        return value11;
+    }
+
+    public void setValue11(String value11) {
+        this.value11 = value11;
+    }
+
+    public String getKey12() {
+        return key12;
+    }
+
+    public void setKey12(String key12) {
+        this.key12 = key12;
+    }
+
+    public String getValue12() {
+        return value12;
+    }
+
+    public void setValue12(String value12) {
+        this.value12 = value12;
+    }
+
+    public String getKey13() {
+        return key13;
+    }
+
+    public void setKey13(String key13) {
+        this.key13 = key13;
+    }
+
+    public String getValue13() {
+        return value13;
+    }
+
+    public void setValue13(String value13) {
+        this.value13 = value13;
+    }
+
+    public String getKey14() {
+        return key14;
+    }
+
+    public void setKey14(String key14) {
+        this.key14 = key14;
+    }
+
+    public String getValue14() {
+        return value14;
+    }
+
+    public void setValue14(String value14) {
+        this.value14 = value14;
+    }
+
+    public String getKey15() {
+        return key15;
+    }
+
+    public void setKey15(String key15) {
+        this.key15 = key15;
+    }
+
+    public String getValue15() {
+        return value15;
+    }
+
+    public void setValue15(String value15) {
+        this.value15 = value15;
+    }
 
     public void addHeroUser(HeroUser heroUser) {
         heroUsers.add(heroUser);

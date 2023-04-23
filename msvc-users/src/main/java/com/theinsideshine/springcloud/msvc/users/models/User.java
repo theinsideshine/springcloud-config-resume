@@ -77,6 +77,14 @@ public class User {
     @NotBlank
     private String youtubeLink;
 
+    @Column(name="linkedin_link")
+    @NotBlank
+    private String linkedinLink;
+
+    @Column(name="facebook_link")
+    @NotBlank
+    private String facebookLink;
+
     public Long getId() {
         return id;
     }
@@ -235,5 +243,21 @@ public class User {
 
     public void setYoutubeLink(String youtubeLink) {
         this.youtubeLink = youtubeLink;
+    }
+
+    public String getLinkedinLink() {
+        return linkedinLink;
+    }
+
+    public void setLinkedinLink(String linkedinLink) {
+        this.linkedinLink = linkedinLink;
+    }
+
+    public String getFacebookLink() {
+        return facebookLink;
+    }
+
+    public void setFacebookLink(String facebookLink) {
+        this.facebookLink = facebookLink;
     }
 }

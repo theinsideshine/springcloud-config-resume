@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="test git ignore git rm --cached configuration.properties" />
+    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="test git ignore" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,7 +53,7 @@
       <recent name="com.theinsideshine.springcloud.msvc.sections.models.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MsvcSectionsApplication">
+  <component name="RunManager" selected="Application.MsvcUsersApplication">
     <configuration name="MsvcSectionsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.theinsideshine.springcloud.msvc.sections.MsvcSectionsApplication" />
       <module name="msvc-sections" />
@@ -82,8 +82,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MsvcSectionsApplication" />
         <item itemvalue="Application.MsvcUsersApplication" />
+        <item itemvalue="Application.MsvcSectionsApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682294042727</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test git ignore">
+      <created>1682294200598</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682294200598</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -188,9 +195,9 @@
     <MESSAGE value="Section portfolio ready" />
     <MESSAGE value="Section testimonial ready" />
     <MESSAGE value="Section contact ready , repair user-by-ids for clientFieng" />
-    <MESSAGE value="test git ignore" />
     <MESSAGE value="test git ignore git rm --cached configuration.properties" />
-    <option name="LAST_COMMIT_MESSAGE" value="test git ignore git rm --cached configuration.properties" />
+    <MESSAGE value="test git ignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="test git ignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -55,6 +55,12 @@ public class HeroController {
             json.addProperty(o.get().getKey8(),o.get().getValue8());
             json.addProperty(o.get().getKey9(),o.get().getValue9());
             json.addProperty(o.get().getKey10(),o.get().getValue10());
+            json.addProperty(o.get().getKey11(),o.get().getUsers().get(0).getGithubLink());
+            json.addProperty(o.get().getKey12(),o.get().getUsers().get(0).getYoutubeLink());
+            json.addProperty(o.get().getKey13(),o.get().getUsers().get(0).getLinkedinLink());
+            json.addProperty(o.get().getKey14(),o.get().getUsers().get(0).getIgLink());
+            json.addProperty(o.get().getKey15(),o.get().getUsers().get(0).getFacebookLink());
+
             LOGGER.log(Level.INFO, "GET hero");
             return ( new ResponseEntity<>(json.toString(), HttpStatus.OK));
 
@@ -101,6 +107,16 @@ public class HeroController {
             heroDb.setValue9(hero.getValue9());
             heroDb.setKey10(hero.getKey10());
             heroDb.setValue10(hero.getValue10());
+            heroDb.setKey11(hero.getKey11());
+            heroDb.setValue11(hero.getValue11());
+            heroDb.setKey12(hero.getKey12());
+            heroDb.setValue12(hero.getValue12());
+            heroDb.setKey13(hero.getKey13());
+            heroDb.setValue13(hero.getValue13());
+            heroDb.setKey14(hero.getKey14());
+            heroDb.setValue14(hero.getValue14());
+            heroDb.setKey15(hero.getKey15());
+            heroDb.setValue15(hero.getValue15());
 
 
             return ResponseEntity.status(HttpStatus.CREATED).body(heroService.save(heroDb));

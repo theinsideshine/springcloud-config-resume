@@ -23,7 +23,7 @@ import java.util.logging.Logger;
 
 
 
-@CrossOrigin(origins =  "http://localhost:3000")
+@CrossOrigin(origins = { "http://localhost:3000" , "https://react-config-resume-builder.web.app/"})
 @RestController
 @RequestMapping
 public class EmailController {

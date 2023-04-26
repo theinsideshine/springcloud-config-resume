@@ -41,7 +41,7 @@ services:
       - mysql8
     restart: always
 
-  msvc-cursos:
+  msvc-sections:
     container_name: msvc-sections
     build:
       context: ./

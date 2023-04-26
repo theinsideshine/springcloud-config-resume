@@ -14,7 +14,7 @@ import java.util.*;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-@CrossOrigin(origins =  "http://localhost:3000")
+@CrossOrigin(origins = { "http://localhost:3000" , "https://react-config-resume-builder.web.app/"})
 @RestController
 @RequestMapping("/section/portfolio")
 public class PortfolioController {

@@ -25,6 +25,12 @@ Deployment is done with docker-compose
 ![](images/docker-compose.gif)
 
 
+[![deploy docker-compose](images/deploy-dc.gif)](https://www.youtube.com/watch?v=8BBb2OJbIWM)
+
+
+
+
+
 
 Frontend repository:
 

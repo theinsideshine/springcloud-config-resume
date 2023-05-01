@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="add cors firebase, make docker-compose-sections.yaml and docker-compose-users.yaml">
-      <change afterPath="$PROJECT_DIR$/doc/crb-deploy-awsEC2.pdf" afterDir="false" />
+    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="add pdf deploy-aws-ec2.pdf">
+      <change afterPath="$PROJECT_DIR$/images/deploy-aws.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
@@ -224,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682903384282</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="add deploy-aws-ec2.pdf">
+      <created>1682904878416</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682904878416</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add pdf deploy-aws-ec2.pdf">
+      <created>1682905018913</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682905018913</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -253,7 +267,9 @@
     <MESSAGE value="add video deploy docker-compose" />
     <MESSAGE value="error docker-compose name msvc" />
     <MESSAGE value="add cors firebase, make docker-compose-sections.yaml and docker-compose-users.yaml" />
-    <option name="LAST_COMMIT_MESSAGE" value="add cors firebase, make docker-compose-sections.yaml and docker-compose-users.yaml" />
+    <MESSAGE value="add deploy-aws-ec2.pdf" />
+    <MESSAGE value="add pdf deploy-aws-ec2.pdf" />
+    <option name="LAST_COMMIT_MESSAGE" value="add pdf deploy-aws-ec2.pdf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

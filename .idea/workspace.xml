@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="ddeploy docker-compose and add readme.md" />
+    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="error docker-compose name msvc">
+      <change afterPath="$PROJECT_DIR$/docker-compose-sections.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose-users.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-sections/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/msvc-users/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker-compose.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/clients/UserClientRest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/clients/UserClientRest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-sections/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-sections/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-users/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,13 +53,13 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "D:/proyectos/microservicios-resume/back-end/springcloudConfigResume/springcloud-config-resume"
+    "last_opened_file_path": "D:/proyectos/microservicios-resume/back-end/springcloudConfigResume/springcloud-config-resume/msvc-sections"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\proyectos\microservicios-resume\back-end\springcloudConfigResume\springcloud-config-resume" />
       <recent name="D:\proyectos\microservicios-resume\back-end\springcloudConfigResume\springcloud-config-resume\msvc-sections" />
+      <recent name="D:\proyectos\microservicios-resume\back-end\springcloudConfigResume\springcloud-config-resume" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.theinsideshine.springcloud.msvc.sections.models" />
@@ -192,7 +203,28 @@
       <option name="project" value="LOCAL" />
       <updated>1682538459591</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="add video deploy docker-compose">
+      <created>1682538840811</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1682538840811</updated>
+    </task>
+    <task id="LOCAL-00015" summary="add video deploy docker-compose">
+      <created>1682538884473</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1682538884473</updated>
+    </task>
+    <task id="LOCAL-00016" summary="error docker-compose name msvc">
+      <created>1682538931309</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1682538931309</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,7 +250,9 @@
     <MESSAGE value="test git ignore" />
     <MESSAGE value="add socialLinks" />
     <MESSAGE value="ddeploy docker-compose and add readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="ddeploy docker-compose and add readme.md" />
+    <MESSAGE value="add video deploy docker-compose" />
+    <MESSAGE value="error docker-compose name msvc" />
+    <option name="LAST_COMMIT_MESSAGE" value="error docker-compose name msvc" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

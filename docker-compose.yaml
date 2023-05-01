@@ -29,12 +29,18 @@ services:
 
   msvc-users:
     container_name: msvc-users
-    build:
-      context: ./
-      dockerfile: ./msvc-users/Dockerfile
+    image: educacionta/users
+#    build:
+#      context: ./
+#      dockerfile: ./msvc-users/Dockerfile
     ports:
       - "8001:8001"
-#    env_file: ./msvc-users/.env
+    environment:
+      PORT: 8001
+      DB_HOST: mysql8:3306
+      DB_DATEBASE: msvc_users
+      DB_USERNAME: root
+      DB_PASSWORD: sasa
     networks:
       - spring
     depends_on:
@@ -43,13 +49,19 @@ services:
 
   msvc-sections:
     container_name: msvc-sections
-    build:
-      context: ./
-      dockerfile: ./msvc-sections/Dockerfile
+    image: educacionta/sections
+#    build:
+#      context: ./
+#      dockerfile: ./msvc-sections/Dockerfile
     ports:
       - "8002:8002"
-#    env_file:
-#      - ./msvc-sections/.env
+    environment:
+      PORT: 8002
+      DB_HOST: postgres14:5432
+      DB_DATEBASE: msvc_sections
+      DB_USERNAME: postgres
+      DB_PASSWORD: sasa
+      USER_URL: msvc-users:8001
     networks:
       - spring
     depends_on:

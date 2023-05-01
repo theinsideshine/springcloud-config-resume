@@ -33,9 +33,7 @@ Guide deploy Aws-EC2: [Deploy aws-EC2](doc/crb-deploy-awsEC2.pdf)
 
 [![Deploy Aws-Elactic Compute Cloud](images/deploy-aws.gif)](https://www.youtube.com/watch?v=UNM7YzxY0Jk)
 
-
 Frontend repository:
-
 https://github.com/theinsideshine/react-resume-microservices/tree/master
 
 

@@ -28,9 +28,10 @@ Deployment is done with docker-compose
 [![deploy docker-compose](images/deploy-dc.gif)](https://www.youtube.com/watch?v=8BBb2OJbIWM)
 
 
-Guide deploy Aws-Ec2 
+Guide deploy Aws-EC2 
 
-![](doc/crb-deploy-awsEC2.pdf)
+[Deploy aws-EC2](doc/crb-deploy-awsEC2.pdf)
+
 
 
 

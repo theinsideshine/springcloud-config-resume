@@ -12,6 +12,7 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+
     @NotBlank
     private String name;
 
@@ -84,6 +85,34 @@ public class User {
     @Column(name="facebook_link")
     @NotBlank
     private String facebookLink;
+
+    public User() {
+    }
+
+    public User(Long id, String name, String email, String city, String country, String location, String locationLink, String nationality, String graduation, String techniqueGraduation, String study, String age, String interests, String employment, String ig, String igLink, String github, String githubLink, String youtube, String youtubeLink, String linkedinLink, String facebookLink) {
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.city = city;
+        this.country = country;
+        this.location = location;
+        this.locationLink = locationLink;
+        this.nationality = nationality;
+        this.graduation = graduation;
+        this.techniqueGraduation = techniqueGraduation;
+        this.study = study;
+        this.age = age;
+        this.interests = interests;
+        this.employment = employment;
+        this.ig = ig;
+        this.igLink = igLink;
+        this.github = github;
+        this.githubLink = githubLink;
+        this.youtube = youtube;
+        this.youtubeLink = youtubeLink;
+        this.linkedinLink = linkedinLink;
+        this.facebookLink = facebookLink;
+    }
 
     public Long getId() {
         return id;

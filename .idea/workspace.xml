@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="issue look3">
-      <change afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/Datas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-users/src/test/java/com/theinsideshine/springcloud/msvc/users/IntegracionJpaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-users/src/test/java/com/theinsideshine/springcloud/msvc/users/controllers/UserControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-users/src/test/java/com/theinsideshine/springcloud/msvc/users/models/UserTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-users/src/test/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-users/src/test/resources/import.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/msvc-users/src/test/resources/logback-test.xml" afterDir="false" />
+    <list default="true" id="b3ab9d40-9664-403d-9a2e-0e14b10f4810" name="Changes" comment="add Junit and Mockito test">
+      <change afterPath="$PROJECT_DIR$/images/junit-mockiuto.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/video-junit.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-users/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/msvc-users/src/test/java/com/theinsideshine/springcloud/msvc/users/MsvcUsersApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/test/java/com/theinsideshine/springcloud/msvc/users/MsvcUsersApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/msvc-users/src/test/java/com/theinsideshine/springcloud/msvc/users/controllers/UserControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/msvc-users/src/test/java/com/theinsideshine/springcloud/msvc/users/controllers/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -58,7 +51,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
     &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
-    &quot;last_directory_selection&quot;: &quot;D:/proyectos/microservicios-resume/back-end/springcloudConfigResume/springcloud-config-resume/msvc-users/src/test/java/com/theinsideshine/springcloud/msvc/users&quot;,
+    &quot;last_directory_selection&quot;: &quot;D:/proyectos/microservicios-resume/back-end/springcloudConfigResume/springcloud-config-resume/msvc-users/src/test/java/com/theinsideshine/springcloud/msvc/users/controllers&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/proyectos/test_unit/recursos/2_springboot_test[junit_mockito]/springboot_test&quot;
   }
 }</component>
@@ -84,23 +77,38 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.java in msvc-users">
-    <configuration name="UserControllerTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="MsvcUsersApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="msvc-users" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.theinsideshine.springcloud.msvc.users.controllers.*" />
+          <option name="PATTERN" value="com.theinsideshine.springcloud.msvc.users.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.theinsideshine.springcloud.msvc.users.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.theinsideshine.springcloud.msvc.users.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="testDelete" />
+      <option name="PACKAGE_NAME" value="com.theinsideshine.springcloud.msvc.users" />
+      <option name="MAIN_CLASS_NAME" value="com.theinsideshine.springcloud.msvc.users.MsvcUsersApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MsvcUsersApplicationTests.testServiceFindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="msvc-users" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.theinsideshine.springcloud.msvc.users.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.theinsideshine.springcloud.msvc.users" />
+      <option name="MAIN_CLASS_NAME" value="com.theinsideshine.springcloud.msvc.users.MsvcUsersApplicationTests" />
+      <option name="METHOD_NAME" value="testServiceFindById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.testGetStudentsPerHero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="msvc-users" />
       <extension name="coverage">
         <pattern>
@@ -110,13 +118,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.theinsideshine.springcloud.msvc.users.controllers" />
       <option name="MAIN_CLASS_NAME" value="com.theinsideshine.springcloud.msvc.users.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="testGetStudentsPerHero" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserControllerTest.testcreate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserControllerTest.testDetail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="msvc-users" />
       <extension name="coverage">
         <pattern>
@@ -126,23 +133,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.theinsideshine.springcloud.msvc.users.controllers" />
       <option name="MAIN_CLASS_NAME" value="com.theinsideshine.springcloud.msvc.users.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="testcreate" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserControllerTest.testedit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="msvc-users" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.theinsideshine.springcloud.msvc.users.controllers.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.theinsideshine.springcloud.msvc.users.controllers" />
-      <option name="MAIN_CLASS_NAME" value="com.theinsideshine.springcloud.msvc.users.controllers.UserControllerTest" />
-      <option name="METHOD_NAME" value="testedit" />
+      <option name="METHOD_NAME" value="testDetail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -159,10 +150,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.java in msvc-users" />
-        <item itemvalue="JUnit.UserControllerTest.testGetStudentsPerHero" />
-        <item itemvalue="JUnit.UserControllerTest.testDelete" />
-        <item itemvalue="JUnit.UserControllerTest.testedit" />
-        <item itemvalue="JUnit.UserControllerTest.testcreate" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.UserControllerTest.testDetail" />
+        <item itemvalue="JUnit.MsvcUsersApplicationTests" />
+        <item itemvalue="JUnit.MsvcUsersApplicationTests.testServiceFindById" />
       </list>
     </recent_temporary>
   </component>
@@ -350,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682905731262</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="add Junit and Mockito test">
+      <created>1683204330299</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1683204330299</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -385,20 +383,35 @@
     <MESSAGE value="issue look" />
     <MESSAGE value="issue look2" />
     <MESSAGE value="issue look3" />
-    <option name="LAST_COMMIT_MESSAGE" value="issue look3" />
+    <MESSAGE value="add Junit and Mockito test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Junit and Mockito test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/controllers/UserController.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/msvc-sections/src/main/java/com/theinsideshine/springcloud/msvc/sections/services/ContactServiceImpl.java</url>
           <line>38</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/controllers/UserController.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/controllers/UserController.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/msvc-users/src/main/java/com/theinsideshine/springcloud/msvc/users/services/UserService.java</url>
+          <line>10</line>
+          <properties class="com.theinsideshine.springcloud.msvc.users.services.UserService" method="findById">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
